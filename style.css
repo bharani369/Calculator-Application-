@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Nerko+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 302px;
+    height: 600px;
+    background-color: rgba(24, 24, 24, 0.911);
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    border-radius: 12px;
+}
+
+input {
+    color: aliceblue;
+    overflow-y: hidden;
+    font-size: 50px;
+    text-align: end;
+    border: none;
+    margin: 0px;
+    width: 100%;
+    border-radius: 12px;
+    height: 120px;
+    border-radius: 7px;
+    background-color: rgba(8, 8, 8, 0.164);
+    border: none;
+}
+
+.point {
+    margin: 10px;
+    width: 55px;
+    height: 55px;
+    background-color: azure;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 9px;
+    margin-left: 8px;
+    border: none;
+}
+
+h1 {
+    font-family: "Nerko One", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+h1:hover {
+    color: aqua;
+}
+
+.point:hover {
+    background-color: rgb(0, 255, 85);
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Nerko One", cursive;
+    font-weight: 100;
+    font-style: oblique;
+    color: rgb(101, 255, 101);
+}
+
+h2:hover {
+    color: rgb(0, 136, 255);
+
+}
